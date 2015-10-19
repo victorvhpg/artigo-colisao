@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Artigo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script src="js/util.js"></script>
+    <script src="js/analise.js"></script>
+    <script src="js/Objeto.js"></script>
+    <script src="js/GridHash.js"></script>
+    <script src="js/Ambiente.js"></script>
+    <script src="js/artigo.js"></script>
+</head>
+
+<body>
+    <div>
+        <div id="log"></div>
+    </div>
+    <div id="divConfig">
+        <fieldset>
+            <legend>Ambiente</legend>
+            <div class="opcao">
+
+                Largura(px):
+                <input type="number" id="ambLargura" value="800" />
+            </div>
+
+            <div class="opcao">
+                Altura(px):
+                <input type="number" id="ambAltura" value="600" />
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Objetos</legend>
+            <div class="opcao">
+                Total:
+                <input type="number" id="totalObjetos" value="3000" />
+                <button id="btnAddObj"> Adicionar  </button>
+            </div>
+            <div class="opcao">
+                Tipo envoltório:
+                <select id="objEnvoltorioTipo">
+                    <option value="1">AABB</option>
+                    <option value="2">Esfera</option>
+
+                </select>
+                <button id="btnSetarEnvoltorio"> setar Tipo envoltório </button>
+            </div>
+            <div>
+                <div class="opcao">
+                    Tamanho Mínimo:
+                    <input type="number" id="objTamMin" value="2" />
+                </div>
+                <div class="opcao">
+
+                    Tamanho Máximo:
+                    <input type="number" id="objTamMax" value="10" />
+                </div>
+            </div>
+            <div>
+                <div class="opcao">
+                    Velocidade Mínima:
+                    <input type="number" id="objVelocMin" value="5" />
+                </div>
+                <div class="opcao">
+
+                    Velocidade Máxima:
+                    <input type="number" id="objVelocMax" value="100" />
+                </div>
+            </div>
+
+            <div class="divBotao">
+                <button id="btnGerarObjetos"> Gerar Objetos </button>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Técnica de Colisão</legend>
+            <div class="opcao">
+                Tipo:
+                <select id="objTipoColisao">
+                    <option value="1">Grid</option>
+                    <option value="2">Força Bruta</option>
+                </select>
+                <button id="btnSetarTecnica"> setar técnica </button>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Grid</legend>
+            <div class="opcao">
+                tamanho da célula
+                <input type="number" id="gridTamCelula" value="40" />
+                <label>
+                    <input type="checkbox" id="ckDesenhaGrid" value="1" checked /> Desenhar Grid</label>
+            </div>
+        </fieldset>
+
+        <div class="divBotao">
+            <button id="btnIniciar">Iniciar</button>
+        </div>
+
+    </div>
+    <div id="containerCanvas">
+
+
+    </div>
+
+</body>
+
+</html>

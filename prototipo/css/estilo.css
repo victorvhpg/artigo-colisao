@@ -1,0 +1,55 @@
+body {
+    font-size: 14px;
+}
+
+fieldset {
+    padding: 5px 5px;
+    border: 1px solid #777;
+    margin: 2px 5px;
+}
+
+legend {
+    background-color: #E7E7FF;
+    padding: 3px;
+}
+
+.opcao {
+    padding: 10px;
+    display: inline-block;
+}
+
+.divBotao {
+    text-align: center;
+    padding: 20px;
+}
+
+#divConfig {
+    float: left;
+    width: 400px;
+}
+
+#divConfig input[type='number'] {
+    width: 60px
+}
+
+#containerCanvas {
+    float: left;
+}
+
+canvas {
+    border: 1px solid #777;
+}
+
+#log:empty {
+    display: none;
+
+}
+
+#log {
+    display: inline-block;
+    margin: 4px;
+    font-size: 12px;
+    padding: 4px;
+    background-color: #282c34;
+    color: #fff;
+}
