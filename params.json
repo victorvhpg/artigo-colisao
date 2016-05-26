@@ -1,0 +1,6 @@
+{
+  "name": "Protótipo do artigo",
+  "tagline": "Análise de Técnicas de Detecção de Colisão Broad Phase em Aplicações Gráficas Interativas Bidimensionais em um Ambiente Web",
+  "body": "#Análise de Técnicas de Detecção de Colisão Broad Phase em Aplicações Gráficas Interativas Bidimensionais em um Ambiente Web\r\n\r\nAmbientes gráficos interativos requerem um alto nível de precisão para poderem simular comportamentos físicos em tempo real, um deste comportamento é a colisão entre objetos. Realizar a detecção de colisão em tempo real exige um alto custo de desempenho. Uma técnica de colisão mal aplicada pode comprometer todo o desempenho da aplicação. Este projeto apresenta técnicas utilizadas na detecção de colisão, e propõe uma análise do desempenho destas técnicas na fase broad phase com grids em um ambiente Web, com o propósito de determinar em quais situações a técnica de grid pode ter um melhor ou pior desempenho.\r\n\r\n\r\n\r\n\r\nVictor Hugo de Paiva Gonçales\r\n \r\nFrancisco Assis da Silva (Orientador)\r\n\r\nFaculdade de Informática de Presidente Prudente (FIPP) – Universidade do Oeste Paulista (UNOESTE)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
